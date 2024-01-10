@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>北京冬奥会可视化</title>
+    <style>#tooltip {
+        position: absolute;
+        background-color: white;
+        width: 70px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #8d8d8d;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #5e5e5e;
+    }
+
+    #tooltip span {
+        float: right;
+        font-weight: bold;
+    }</style>
+    <script defer="defer" src="js/chunk-vendors.8ec9175d.js"></script>
+    <script defer="defer" src="js/app.d2a58b01.js"></script>
+    <link href="css/chunk-vendors.bedf74d3.css" rel="stylesheet">
+    <link href="css/app.f6232551.css" rel="stylesheet">
+    <script defer="defer" src="js/chunk-vendors-legacy.b9358af3.js" ></script>
+    <script defer="defer" src="js/app-legacy.ee1506cc.js" ></script>
+</head>
+<body>
+<div id="app"></div>
+<div id="tooltip">
+    <div id="tooltip-name"></div>
+    <div>🏅<span id="gold"></span></div>
+    <div>🥈<span id="silver"></span></div>
+    <div>🥉<span id="copper"></span></div>
+</div>
+</body>
+</html>
